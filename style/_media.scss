@@ -1,0 +1,29 @@
+@media (max-width: 571px) {
+  .bodiy {
+    padding: 0 20px;
+  }
+  .container,
+  .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .nav__list,
+  .nav__list__item span,
+  .nav__btn,
+  .nav__btn__bar span {
+    display: none;
+  }
+  
+}
+
+.World {
+  width: 100%;
+  flex-direction: column-reverse;
+}
+
+.World__foto img {
+  width: 100%;
+  flex-direction: column-reverse;
+}
